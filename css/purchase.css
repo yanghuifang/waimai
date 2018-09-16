@@ -1,0 +1,85 @@
+/*
+* @Author: 11911
+* @Date:   2018-08-15 22:19:55
+* @Last Modified by:   11911
+* @Last Modified time: 2018-08-16 14:39:19
+*/
+body{
+	background-image: url('../img/bgpur.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box{
+	width: 5.16rem;
+	height: 5.5rem;
+	background: #ff421c;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -2.58rem;
+	margin-top: -2.75rem;
+}
+.box .b-pic img{
+	width: 100%;
+}
+.box ul{
+	height: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	z-index: 1
+}
+.box ul li{
+	color: #fff;
+	padding: 0 0.3rem;
+	margin-bottom: 0.2rem;
+}
+.box ul .list1 h4{
+	font-size: 0.3rem;
+	font-weight: normal;
+
+}
+.box ul .list1 p{
+	font-size: 0.24rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.box ul .list2{
+	display: flex;
+}
+.box ul .list2 img{
+	width: 0.38rem;
+	height: 0.38rem;
+	display: block;
+}
+.box ul .list2 span{
+	font-size: 0.24rem;
+	margin: 0 0.1rem;
+
+}
+.box ul .list3{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* float: left; */
+}
+.box ul .list3 h3{
+	font-size: 0.3rem;
+	font-weight: normal;
+}
+.box ul .list3 .btn{
+	
+	width: 2.1rem;
+	height: 0.82rem;
+	background-color: #fff;
+	font-size: 0.3rem;
+	color: #ff421c;
+	text-align: center;
+	font-weight: normal;
+	line-height: 0.82rem;
+	border-radius: 0.41rem;
+
+}

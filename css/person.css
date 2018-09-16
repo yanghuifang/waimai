@@ -1,0 +1,236 @@
+/*
+* @Author: 11911
+* @Date:   2018-08-15 13:35:35
+* @Last Modified by:   11911
+* @Last Modified time: 2018-08-15 17:17:53
+*/
+/* 顶部 */
+header{
+	width: 100%;
+	height: 2rem;
+	background: linear-gradient(to right,#fa7f24,#f2411e);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	padding: 0 0.24rem;
+
+}
+header .shop{
+	width: 100%;
+	height: 0.9rem;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header img{
+	width: 3.43rem;
+	height: 0.44rem;
+}
+header .pic1{
+	width: 0.4rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header .pic1 img{
+	width: 0.37rem;
+	height: 0.37rem;
+}
+header .pic2{
+	width: 0.36rem;
+	height: 100%;
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+}
+header .pic2 img{
+	width: 0.33rem;
+	height: 0.32rem;
+}
+/* 个人介绍 */
+header .personal{
+	width: 100%;
+	height: 1.76rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	padding: 0 0.3rem;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0.04rem 0.16rem 0.06rem rgb(255, 0, 0,0.1);
+}
+header .personal .per-head{
+	width: 0.62rem;
+	height: 100%;
+	margin-right: 0.3rem;
+}
+header .personal .per-head img{
+	width: 0.62rem;
+	height: 0.62rem;
+}
+header .personal .text h4{
+	font-size: 0.26rem;
+	color: #000;
+
+}
+header .personal .text h4 img{
+	width: 1.23rem;
+	height: 0.21rem;
+	margin-left: 1rem;
+}
+header .personal .text h4 i{
+	color: #f2421e;
+	font-size: 0.22rem;
+	font-weight: normal;
+}
+header .personal .text p{
+	font-size: 0.24rem;
+	color: #585858;
+	line-height: 0.4rem
+}
+header .personal .text p span{
+	margin-left: 0.3rem;
+}
+/* 列表 */
+.list{
+	width: 100%;
+	padding: 0 0.24rem;
+	margin-top: 3rem;
+	margin-bottom: 1.3rem;
+}
+
+.list ul li:nth-child(6){
+
+}
+.list ul li{
+	width: 100%;
+	height: 0.94rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+	box-shadow: 0 0.04rem 0.16rem 0.06rem rgb(255, 0, 0,0.1);
+	border-radius: 0.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.16rem;
+}
+/* 文字 */
+.list ul li .text{
+	height: 100%;
+	width: 100%;
+	
+
+}
+.list ul li .text h3{
+	font-size: 0.24rem;
+	color: #585858;
+	
+}
+.list ul li .text p{
+	font-size: 0.24rem;
+	color: #585858;
+
+}
+/* 图片 */
+.list ul li .text .pic{
+	width: 0.6rem;
+	height: 100%;
+	float: left;
+	padding: 0.1rem 0;
+
+}
+.list ul li .text .pic img{
+	width: 0.44rem;
+	height: 0.45rem;
+	display: block
+}
+/* 消息 */
+.list ul li .passage{
+	width: 0.38rem;
+	height: 0.38rem;
+	border-radius: 50%;
+	background: #ffc332;
+	line-height: 0.38rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.26rem;
+	font-weight: 600;
+}
+.list ul li .passage1{
+	width: 0.7rem;
+	height: 0.38rem;
+	border-radius: 0.19rem;
+	border: 0.02rem solid #ffc332;
+	line-height: 0.38rem;
+	text-align: center;
+	color: #ffc332;
+	font-size: 0.26rem;
+}
+/* 底部 */
+
+.bottom{
+	width: 100%;
+	height: 1.1rem;
+	background: #fff;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: -0.01rem;
+	left: 0;
+	box-shadow: 0 -0.04rem 0.1rem 0.02rem rgba(255, 0, 0,0.1);
+	z-index: 1;
+}
+.bottom main{
+	height: 100%;
+	
+
+
+}
+.bottom main ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	/* align-items: center; */
+}
+.bottom main ul li{
+	width: 0.5rem;
+	height: 0.8rem;
+	margin-top: 0.14rem;
+	
+	display: flex;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+.bottom main ul li h3{
+	font-size: 0.2rem;
+    font-weight: normal;
+    /* line-height: 0.4rem; */
+
+}
+.bottom main ul li .pic1{
+	width: 0.48rem;
+	height: 0.46rem;
+}
+.bottom main ul li .pic2{
+	width: 0.43rem;
+	height: 0.43rem;
+}
+.bottom main ul li .pic3{
+	width: 0.37rem;
+	height: 0.39rem;
+}
+.bottom main ul li .pic4{
+	width: 0.31rem;
+	height: 0.35rem;
+}
+.bottom main ul a{
+	color: #000;
+}

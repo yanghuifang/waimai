@@ -1,0 +1,55 @@
+/*
+* @Author: 11911
+* @Date:   2018-08-08 10:41:12
+* @Last Modified by:   11911
+* @Last Modified time: 2018-08-15 22:56:50
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+
+
+@media screen and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px);
+	}
+}
+@media screen and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px);
+	}
+}
+@media screen and (min-width: 411px){
+	html{
+		font-size: calc(411/750*100px);
+	}
+}
+@media screen and (min-width: 414px){
+	html{
+		font-size: calc(414/750*100px);
+	}
+}
+@media screen and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px);
+	}
+}
+@media screen and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px);
+	}
+}
+@media screen and (min-width: 1024px){
+	html{
+		font-size: calc(1024/750*100px);
+	}
+}

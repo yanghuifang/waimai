@@ -1,0 +1,245 @@
+/*
+* @Author: 11911
+* @Date:   2018-08-09 11:53:04
+* @Last Modified by:   11911
+* @Last Modified time: 2018-08-14 13:46:57
+*/
+/* 食物列表 */
+.list{
+	width: 100%;
+	background-color: #f4f4f4;
+	padding: 0 0.24rem;
+	margin-bottom: 1.3rem;
+
+}
+.list a{
+	color: #000;
+}
+
+.list ul li{
+	width: 100%;
+	height: 1.95rem;
+	/* 阴影 */
+	background-color: #fff;
+	box-shadow: 0 0.05rem 0.2rem rgba(255, 0, 0,0.1);
+	margin-top: 0.16rem;
+	border-radius: 0.16rem;
+	display: flex;
+}
+.list ul li .picture{
+	width: 1.6rem;
+	height: 100%;
+	
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.list ul li .picture img{
+	width: 1.23rem;
+	height: 1.56rem;
+
+}
+.list ul li .content{
+	width: 3.82rem;
+	height: 100%;
+	
+	/* padding-top: 0.1rem; */
+	padding-left: 0.1rem;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+
+	
+
+
+}
+/* .list ul li .pic{
+
+} */
+.list ul li .content .style  h6{
+	font-size: 0.26rem;
+	font-style: normal;
+	/* display: flex; */
+}
+.list ul li .content .style{
+	width: 2.4rem;
+	border-bottom: 0.02rem dashed #c5c5c5;
+	padding-bottom: 0.06rem;
+}
+
+.list ul li .content .eva{
+	/* width: 100%;
+	display: flex;
+	font-size: 0.2rem;
+	color: #000;
+	justify-content: space-between; */
+	color: #aaaaaa;
+	width: 100%;
+	display: flex;
+	font-size: 0.2rem;
+	float: left;
+
+	/* justify-content: space-between; */
+}
+.list ul li .content .eva .des img{
+	width: 1.11rem;
+	height: 0.18rem;
+}
+.list ul li .content .eva span{
+	/* float: left; */
+	color: #aaaaaa;
+}
+.list ul li .content .eva  .num{
+	/* width: 100%; */
+	/* display: flex; */
+	font-size: 0.2rem;
+	margin-left: 0.3rem;
+	/* float: left; */
+	
+	/* justify-content: space-between; */
+}
+.list ul li .content .song{
+	width: 100%;
+	/* display: flex; */
+	font-size: 0.2rem;
+	color: #aaaaaa;
+
+	/* justify-content: space-around; */
+}
+.list ul li .content .song1{
+	margin-right: 0.3rem;
+	float: left;
+
+}
+/* .list ul li .content .song .song4{
+	width: 1.1rem;
+	height: 0.25rem;
+	text-align: center;
+	line-height: 0.25rem;
+	font-size: 0.18rem;
+	background-color: #aaaaaa;
+	color: #000;
+	border-top-right-radius: 0.1rem;
+	border-bottom-left-radius: 0.1rem;
+} */
+
+.list ul li .content .shou{
+	width: 100%;
+	display: flex;
+	font-size: 0.2rem;
+	justify-content: flex-start;
+	margin-top: 0.08rem;
+
+}
+.list ul li .content .shou p{
+	color: #aaaaaa;
+	font-size: 0.2rem;
+}
+.list ul li .content .shou .pic{
+	width: 0.6rem;
+	height: 0.26rem;
+	background-color: #fff;
+	color: #aaaaaa;
+	text-align: center;
+	font-size: 0.2rem;
+	line-height: 0.24rem;
+	border-radius: 0.13rem;
+	box-shadow: 0 0.1rem 0.2rem rgba(255, 0, 0,0.1);
+	margin-right: 0.3rem;
+}
+
+.list ul li .site{
+	width: 1.6rem;
+	height: 100%;
+	/* float: left; */
+	
+	padding-top: 0.55rem;
+}
+.list ul li .site .time img{
+	width: 0.18rem;
+	height: 0.18rem;
+}
+.list ul li .site .time{
+	width: 100%;
+	/* display: flex; */
+	font-size: 0.2rem;
+	color: #f81313;
+	/* justify-content: space-between; */
+}
+.list ul li .site .location img{
+	width: 0.17rem;
+	height: 0.22rem;
+}
+.list ul li .site .location{
+	width: 100%;
+	/* display: flex; */
+	font-size: 0.2rem;
+	color: #f81313;
+	/* justify-content: space-between; */
+}
+
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 1.1rem;
+	background: #fff;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: -0.01rem;
+	left: 0;
+	box-shadow: 0 -0.04rem 0.1rem 0.02rem rgba(255, 0, 0,0.1);
+}
+footer main{
+	height: 100%;
+	
+
+
+}
+footer main ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	/* align-items: center; */
+}
+footer main ul li{
+	width: 0.5rem;
+	height: 0.8rem;
+	margin-top: 0.14rem;
+	
+	display: flex;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+footer main ul li h3{
+	font-size: 0.2rem;
+    font-weight: normal;
+    /* line-height: 0.4rem; */
+
+}
+
+footer main ul li .pic1{
+	width: 0.48rem;
+	height: 0.46rem;
+}
+footer main ul li .pic2{
+	width: 0.43rem;
+	height: 0.43rem;
+}
+footer main ul li .pic3{
+	width: 0.37rem;
+	height: 0.39rem;
+}
+footer main ul li .pic4{
+	width: 0.31rem;
+	height: 0.35rem;
+}
