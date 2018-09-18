@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/size.css">
 	<link rel="stylesheet" href="css/shop.css">
 	<script src="js/shop.js"></script>
+	<script src="js/jquery 3.3.1.js"></script>
 </head>
 <body>
 	<header>
@@ -44,21 +45,22 @@
 	<main>
 		<div class="list">
 			<ul>
-				<li>折扣</li>
+				<li class="actives">折扣</li>
 				<li>本店必选</li>
 				<li>单人套餐</li>
 				<li>双人套餐</li>
 				<li>多人套餐</li>
-				<li>热门</li>
+				<li >热门</li>
 			</ul>
 		</div>
 		<div class="content">
-			<ul>
+			<ul class="list5">
 				<li>
 					<a href="shopping.html">
 					<div class="picture">
 						<img src="img/p1.png" alt="">
 					</div>
+
 					</a>
 					<div class="chief">
 						<h6>黑椒烤肉拌饭</h6>
@@ -69,6 +71,10 @@
 							<div class="song2"><span>8.8</span>折</div>
 							<div class="pic">
 								<img src="img/jia.png" alt="">
+							</div>
+							<div class="shu"></div>
+							<div class="pic1">
+								<img src="img/jian.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -158,6 +164,546 @@
 						</div>
 					</div>
 				</li>
+			</ul>
+			<ul class="list4">
+				<li>
+					<div class="picture">
+						<img src="img/p3.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>番茄烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>蜜汁烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉</div>
+						<div class="num">月售<span>160</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>18</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="shopping.html">
+						<div class="picture">
+							<img src="img/p1.png" alt="">
+						</div>
+					</a>
+					<div class="chief">
+						<h6>黑椒烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉,胡萝卜,青菜,米饭</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p4.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>千岛烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p1.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+			<ul class="list5">
+				<li>
+					<div class="picture">
+						<img src="img/p3.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>番茄烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="shopping.html">
+						<div class="picture">
+							<img src="img/p1.png" alt="">
+						</div>
+					</a>
+					<div class="chief">
+						<h6>黑椒烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉,胡萝卜,青菜,米饭</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>蜜汁烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉</div>
+						<div class="num">月售<span>160</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>18</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="picture">
+						<img src="img/p4.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>千岛烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p1.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+			<ul class="list4">
+				<li>
+					<a href="shopping.html">
+						<div class="picture">
+							<img src="img/p1.png" alt="">
+						</div>
+					</a>
+					<div class="chief">
+						<h6>黑椒烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉,胡萝卜,青菜,米饭</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p3.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>番茄烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>蜜汁烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉</div>
+						<div class="num">月售<span>160</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>18</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="picture">
+						<img src="img/p4.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>千岛烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p1.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+			<ul class="list5">
+				<li>
+					<a href="shopping.html">
+						<div class="picture">
+							<img src="img/p1.png" alt="">
+						</div>
+					</a>
+					<div class="chief">
+						<h6>黑椒烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉,胡萝卜,青菜,米饭</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p4.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>千岛烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p1.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>蜜汁烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉</div>
+						<div class="num">月售<span>160</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>18</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p3.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>番茄烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="list4">
+				<li>
+					<div class="picture">
+						<img src="img/p3.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>番茄烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p4.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>千岛烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="shopping.html">
+						<div class="picture">
+							<img src="img/p1.png" alt="">
+						</div>
+					</a>
+					<div class="chief">
+						<h6>黑椒烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉,胡萝卜,青菜,米饭</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="picture">
+						<img src="img/p2.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>蜜汁烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜,黄瓜,鸡肉</div>
+						<div class="num">月售<span>160</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>18</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
+
+				<li>
+					<div class="picture">
+						<img src="img/p1.png" alt="">
+					</div>
+					<div class="chief">
+						<h6>烤肉拌饭</h6>
+						<div class="des">采用新鲜蔬菜，黄瓜，鸡肉</div>
+						<div class="num">月售<span>200</span>份</div>
+						<div class="song">
+							<div class="song1">￥<span>15</span></div>
+							<div class="song2"><span>8.8</span>折</div>
+							<div class="pic">
+								<img src="img/jia.png" alt="">
+							</div>
+						</div>
+					</div>
+				</li>
+
 			</ul>
 		</div>
 		<div class="bottom">
